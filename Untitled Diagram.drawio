@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.16">
   <diagram name="Page-1" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
-    <mxGraphModel dx="521" dy="557" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+    <mxGraphModel dx="453" dy="484" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -10,20 +10,32 @@
         <mxCell id="77e6c97f196da883-2" value="Customer" style="swimlane;html=1;startSize=20;" parent="77e6c97f196da883-1" vertex="1">
           <mxGeometry y="20" width="160" height="730" as="geometry" />
         </mxCell>
-        <mxCell id="dxA8F3odwscXsq0UWhuK-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="77e6c97f196da883-2" source="rgaB3htRBJ5-9n0NGsLe-1" target="dxA8F3odwscXsq0UWhuK-1">
+        <mxCell id="dxA8F3odwscXsq0UWhuK-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="77e6c97f196da883-2" source="rgaB3htRBJ5-9n0NGsLe-1" target="dxA8F3odwscXsq0UWhuK-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="rgaB3htRBJ5-9n0NGsLe-1" value="Start" style="ellipse;whiteSpace=wrap;html=1;" parent="77e6c97f196da883-2" vertex="1">
-          <mxGeometry x="30" y="50" width="100" height="40" as="geometry" />
+          <mxGeometry x="45" y="50" width="70" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="dxA8F3odwscXsq0UWhuK-1" value="Customer submits purchase order" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="77e6c97f196da883-2">
-          <mxGeometry x="20" y="160" width="120" height="60" as="geometry" />
+        <mxCell id="ZIjQ0YNgkoybc5bCaPH_-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="77e6c97f196da883-2" source="dxA8F3odwscXsq0UWhuK-1" target="ZIjQ0YNgkoybc5bCaPH_-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dxA8F3odwscXsq0UWhuK-1" value="Submits purchase order" style="rounded=1;whiteSpace=wrap;html=1;" parent="77e6c97f196da883-2" vertex="1">
+          <mxGeometry x="25" y="110" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ZIjQ0YNgkoybc5bCaPH_-1" value="Purchase Order Details" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;rounded=1;" vertex="1" parent="77e6c97f196da883-2">
+          <mxGeometry x="30" y="180" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="77e6c97f196da883-3" value="Sales Dept" style="swimlane;html=1;startSize=20;" parent="77e6c97f196da883-1" vertex="1">
           <mxGeometry x="160" y="20" width="180" height="730" as="geometry" />
         </mxCell>
-        <mxCell id="dxA8F3odwscXsq0UWhuK-3" value="Sales receives purchase order and creates sales order&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="77e6c97f196da883-3">
-          <mxGeometry x="30" y="160" width="120" height="60" as="geometry" />
+        <mxCell id="ZIjQ0YNgkoybc5bCaPH_-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="77e6c97f196da883-3" source="ZIjQ0YNgkoybc5bCaPH_-4" target="ZIjQ0YNgkoybc5bCaPH_-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZIjQ0YNgkoybc5bCaPH_-4" value="Receive Purchase Order" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="77e6c97f196da883-3">
+          <mxGeometry x="30" y="40" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ZIjQ0YNgkoybc5bCaPH_-6" value="Manual Input or Automated" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="77e6c97f196da883-3">
+          <mxGeometry x="50" y="140" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="77e6c97f196da883-4" value="Warehouse" style="swimlane;html=1;startSize=20;" parent="77e6c97f196da883-1" vertex="1">
           <mxGeometry x="340" y="20" width="160" height="730" as="geometry" />
@@ -37,8 +49,13 @@
         <mxCell id="77e6c97f196da883-7" value="Shipping" style="swimlane;html=1;startSize=20;" parent="77e6c97f196da883-1" vertex="1">
           <mxGeometry x="820" y="20" width="160" height="730" as="geometry" />
         </mxCell>
-        <mxCell id="dxA8F3odwscXsq0UWhuK-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="77e6c97f196da883-1" source="dxA8F3odwscXsq0UWhuK-1" target="dxA8F3odwscXsq0UWhuK-3">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="ZIjQ0YNgkoybc5bCaPH_-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="77e6c97f196da883-1" source="ZIjQ0YNgkoybc5bCaPH_-1" target="ZIjQ0YNgkoybc5bCaPH_-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="170" y="235" />
+              <mxPoint x="170" y="90" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
